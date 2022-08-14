@@ -1,0 +1,32 @@
+{
+  "name": "@navify/eslint-config",
+  "version": "0.3.0",
+  "description": "Common eslint rules/preferences for Navify.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/navify/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "lint",
+    "navify",
+    "typescript"
+  ],
+  "author": "Navify Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/navify/eslint-config/issues"
+  },
+  "homepage": "https://github.com/navify/eslint-config#readme",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.1.0",
+    "@typescript-eslint/parser": "^4.1.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=7"
+  }
+}
