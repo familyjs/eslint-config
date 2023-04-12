@@ -1,25 +1,25 @@
 {
-  "name": "@navify/eslint-config",
+  "name": "@familyjs/eslint-config",
   "version": "0.3.0",
-  "description": "Common eslint rules/preferences for Navify.",
+  "description": "Common eslint rules/preferences for Family.",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/navify/eslint-config.git"
+    "url": "git+https://github.com/familyjs/eslint-config.git"
   },
   "keywords": [
     "eslint",
     "eslintconfig",
     "lint",
-    "navify",
+    "family",
     "typescript"
   ],
-  "author": "Navify Team",
+  "author": "Family Team",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/navify/eslint-config/issues"
+    "url": "https://github.com/familyjs/eslint-config/issues"
   },
-  "homepage": "https://github.com/navify/eslint-config#readme",
+  "homepage": "https://github.com/familyjs/eslint-config#readme",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.1.0",
     "@typescript-eslint/parser": "^4.1.0",

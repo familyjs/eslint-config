@@ -1,8 +1,8 @@
-# @navify/eslint-config
+# @familyjs/eslint-config
 
-Shared ESLint config used in Navify and Jigra projects.
+Shared ESLint config used in Family and Jigra projects.
 
-This is meant to be used alongside Prettier (with [`@navify/prettier-config`](https://github.com/navify/prettier-config/)).
+This is meant to be used alongside Prettier (with [`@familyjs/prettier-config`](https://github.com/familyjs/prettier-config/)).
 
 ## Usage
 
@@ -10,23 +10,23 @@ This is meant to be used alongside Prettier (with [`@navify/prettier-config`](ht
 1. Install `eslint` and the config.
 
     ```
-    npm install -D eslint @navify/eslint-config
+    npm install -D eslint @familyjs/eslint-config
     ```
 
 1. Add the following to `package.json`:
 
     ```
     "eslintConfig": {
-      "extends": "@navify/eslint-config/recommended"
+      "extends": "@familyjs/eslint-config/recommended"
     }
     ```
 
-:memo: You can also use the base rule set: `@navify/eslint-config`
+:memo: You can also use the base rule set: `@familyjs/eslint-config`
 
-### With Prettier and `@navify/prettier-config`
+### With Prettier and `@familyjs/prettier-config`
 
-1. Set up Prettier and [`@navify/prettier-config`](https://github.com/navify/prettier-config/).
-1. When using with Prettier and `@navify/prettier-config`, ESLint should run first. Set up your scripts in `package.json` like this:
+1. Set up Prettier and [`@familyjs/prettier-config`](https://github.com/familyjs/prettier-config/).
+1. When using with Prettier and `@familyjs/prettier-config`, ESLint should run first. Set up your scripts in `package.json` like this:
 
     ```json
       "scripts": {
